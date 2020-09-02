@@ -1,0 +1,34 @@
+commit a1a6f5f3d897e509e73e231c4ab34cd49379ee16
+Author: BrunoHebert <bhr@icomp.ufam.edu.br>
+Date:   Wed May 3 09:38:37 2017 -0400
+
+    questao 4
+
+commit b84b8abebaa16b081fd005d948625daacf60bbac
+Author: BrunoHebert <bhr@icomp.ufam.edu.br>
+Date:   Wed May 3 09:30:24 2017 -0400
+
+    questao 4
+
+commit fbe78c6c648d76088cb98a991ece4a9c6ec9e968
+Author: BrunoHebert <bhr@icomp.ufam.edu.br>
+Date:   Wed May 3 09:14:26 2017 -0400
+
+    questao 1
+
+commit 5f99e76e316103db01348fc85deb46e964799cc0
+Author: BrunoHebert <bhr@icomp.ufam.edu.br>
+Date:   Wed May 3 09:13:30 2017 -0400
+
+    questao 3
+
+
+
+a) Diretorio de Trabalho é o local onde os arquivos estao armazenados no PC, como uma de várias outras pastas.
+	É onde o usuario trabalha e edita os arquivos.
+
+b) 	Repositorio Local é quando todos os arquivos do diretorio de trabalho estão prontos para serem enviados. Seria como uma caixa com objetos prontos para serem enviados.
+	Repositorio Remoto é para onde os arquivos sao enviados apos serem commitados. É como se fosse o destino final do pacote de arquivos salvos no repositorio local.
+
+Nota: 2.0
+Logs e conceitos reportados corretamente.

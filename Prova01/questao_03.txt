@@ -1,0 +1,15 @@
+ Definir em style um "span" como.
+ 	<style>
+		span {	
+			background-color: blue;
+		}
+	</style>
+
+Utilizando uam tag fora do span, por exemplo <strong>
+	<p>Estou aprendendo<strong> <span class="cl1" title="css">CSS</span></strong>.</p>
+
+Utilizar dentro da tag span um style.
+	<p>Estou aprendendo <span class="cl1" title="css" style="background-color: gray">CSS</span>.</p>
+
+Nota: 0.0
+Os seletores não foram apresentados.

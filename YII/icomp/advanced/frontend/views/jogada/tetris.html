@@ -1,0 +1,178 @@
+<!--Incompleto -->
+<head>
+    <meta charset="utf-8">
+        <title>Jogo Tetris</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <div id="proxima-peca">
+        	<table id="gridProxPeca" class="tabuleiro"><tbody>
+        	
+
+        	<tr>
+        		<td style="background-color: transparent;"></td>
+        		<td style="background-color: transparent;"></td>
+        		<td style="background-color: transparent;"></td>
+        		<td style="background-color: transparent;"></td>
+        	</tr>
+
+        	<tr>
+        		<td style="background-color: transparent;"></td>
+        		<td style="background-color: transparent;"></td>
+        		<td style="background-color: transparent;"></td>
+        		<td style="background-color: transparent;"></td>
+        	</tr>
+
+        	</tbody>
+        	</table>
+        </div>
+
+       
+        <div id="informacoes">
+        	<table id="pontos">		
+        		<tbody>
+        			<tr>			
+        				<td class="title">Pontuação:</td>
+        				<td>00000</td>
+        			</tr>		
+
+        			<tr>
+        				        			</tr>	
+        		</tbody>
+        	</table>	
+
+        	<table id="comandos"> 		
+        		<tbody>
+        			<tr>
+        				<td colspan="2" class="title"> Comandos	</td>
+					</tr>
+
+					<tr>
+						<td class="left">SPACE</td>
+						<td>Iniciar</td>
+					</tr>
+
+					<tr>
+						<td class="left"> ↑ </td>
+						<td>Rotacionar peças</td>
+					</tr>		
+
+					<tr>
+						<td class="left">←, →, ↓</td>
+						<td>Mover peças</td>
+					</tr>	
+				</tbody>
+			</table>
+		</div>
+
+         <div id="tabuleiro">
+            <table id="gridTabuleiro" class="tabuleiro">
+                <tbody>
+                    
+             
+                    <tr>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                        <td style="background-color: transparent;"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script type="text/javascript" src="tetris.js"></script>
+    
+</body>
